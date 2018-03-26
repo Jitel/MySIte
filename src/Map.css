@@ -1,0 +1,17 @@
+.Map{
+    text-align: center;
+    background: #656565;
+    border: 1px solid #57b266;
+    padding: 10px;
+    margin: 20px;
+}
+.Map-footer{
+    background-color: #222;
+    height: 100px;
+    padding: 1px;
+    color: white;
+
+}
+.company{
+   color: white;
+}
