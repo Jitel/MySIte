@@ -2,12 +2,13 @@ import React, {Component} from 'react';
 import './Ubuntu.css';
 //import {Button} from 'react-bootstrap';
 import {Button , Icon , Container , Header} from 'semantic-ui-react'
+import {MediaBox} from 'react-materialize'
 
 class Ubuntu extends Component {
     render() {
         return (
             <div className="Ubuntu">
-                <div className="Image"><img src="http://toplogos.ru/images/logo-ubuntu.png" width="100" height="111"
+                <div className="Image"><MediaBox src="http://toplogos.ru/images/logo-ubuntu.png" width="100" height="111"
                                             alt="Ubuntu"/></div>
                 <Container text>
                     <Header as='h2'>Ubuntu</Header>

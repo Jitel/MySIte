@@ -8,6 +8,7 @@ class Map extends Component {
             <div className="Map">
                 <a href="https://vk.com/jitel_g" className="company">Контакты</a>
                 <p className="company">jitel company</p>
+                <h2>Текущее время {new Date().toLocaleTimeString()}.</h2>
             </div>
 
         )

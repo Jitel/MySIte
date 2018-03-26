@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
-import App from './App';
-import Map from './Map';
+import App from './App/App';
+import Map from './Map/Map';
 import Ubuntu from './Ubuntu/Ubuntu';
 import Debian from './Debian/Debian';
+
 
 import registerServiceWorker from './registerServiceWorker';
 

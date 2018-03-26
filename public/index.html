@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="path/to/your/bundle.js"></script>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -29,13 +34,15 @@
 <noscript>
     You need to enable JavaScript to run this app.
 </noscript>
-<header>
-    <div id="header"></div>
-</header>
-    <div id="debian"></div>
+<div>
+    <header>
+        <div id="header"></div>
+    </header>
+    <div id="debian" type="text/babel"></div>
     <div id="ubuntu"></div>
-<footer>
-    <div id="footer"></div>
-</footer>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
 </body>
 </html>

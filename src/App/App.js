@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import {Menu, Container, Header, Divider, Segment} from 'semantic-ui-react'
 
@@ -18,7 +18,7 @@ class App extends Component {
                         <p className="App-intro">What is this linux?</p>
                     </Container>
                     <Divider color="white" selection/>
-                    <div>
+                    <div> /** this div is a temporarily **/
                         <Menu inverted>
                             <Menu.Item
                                 name='editorials'

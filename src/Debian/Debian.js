@@ -3,13 +3,17 @@ import './Debian.css';
 import EffectContainer, {Effects} from 'react-magic-effects';
 //import {Button} from 'react-bootstrap';
 import {Button, Icon, Container , Header, Reveal} from 'semantic-ui-react'
+import {MediaBox} from 'react-materialize'
 
 class Debian extends Component {
     render() {
         return (
+
             <div  className="Debian">
-                <div className="Image"><img src="http://toplogos.ru/images/logo-debian.png" width="100" height="111"
-                                            alt="Debian"/></div>
+                <div className="Image">
+                    <MediaBox src="http://toplogos.ru/images/logo-debian.png" width="100" height="111"/>
+                </div>
+
                 <Container text>
                     <Header as='h2'>Debian</Header>
                     <p>
@@ -33,7 +37,7 @@ class Debian extends Component {
                     (впоследствии — жены, ныне — бывшей) Дебры Линн (Debra Lynn).
                     </p>
                 </Container>
-                <div className="site">
+                <div className="site_button">
                 <a href="https://www.debian.org/index.ru.html">
                     <div className="button">
                         <div >
